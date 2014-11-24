@@ -13,7 +13,7 @@ function Update () {
 //create a linebreak with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hey.\nCan I get 1\nLarge Fry\nand 1 Cheeseburger?";
+var a1title = "Hey.\nCan you make me a\nLarge Fry\nand a Cheeseburger?";
 var a2title = "Could you give me 1\nSmall Fry and\n2 Small Drinks?";
 var a3title = "Alright!\n1 Burger with Tomato,\n1 Large Fry\nand,1 Small Drink.";
 var a4title = "Burger Machine?\n2 Medium Drinks.\nPlease.";
