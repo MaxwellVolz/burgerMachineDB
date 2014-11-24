@@ -56,7 +56,7 @@ var a3order = [
     1,//pattiesMade
     0,//cheeseMade
     0,//picklesMade
-	2,//tomatoesMade
+	1,//tomatoesMade
 	0,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
@@ -81,10 +81,10 @@ var a5order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
-    2,//pattiesMade
-    2,//cheeseMade
-    2,//picklesMade
-	2,//tomatoesMade
+    1,//pattiesMade
+    1,//cheeseMade
+    1,//picklesMade
+	1,//tomatoesMade
 	0,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
@@ -94,6 +94,20 @@ var a5order = [
 	var a6order = [
     0,//lgFriesMade
     2,//mdFriesMade
+    0,//smFriesMade
+    2,//pattiesMade
+    0,//cheeseMade
+    1,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+	var a7order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
     0,//smFriesMade
     3,//pattiesMade
     3,//cheeseMade
