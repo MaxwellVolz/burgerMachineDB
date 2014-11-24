@@ -8,6 +8,11 @@ function Update () {
 
 }
 
+//title format
+//less than 19 characters per line
+//create a linebreak with \n no spaces needed
+//6 lines maximum - short orders can start with a \n - needs testing.
+
 var a1title = "Double cheeseburger\nand 2 large\n fries please.\nthanks a ton\nyeah rip\nripripriprip";
 var a2title = "Double large\nfry.";
 var a3title = "Double medium\nfry";
