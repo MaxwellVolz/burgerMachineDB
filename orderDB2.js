@@ -91,7 +91,7 @@ var b5order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var a6order = [
+var b6order = [
     0,//lgFriesMade
     0,//mdFriesMade
     2,//smFriesMade
