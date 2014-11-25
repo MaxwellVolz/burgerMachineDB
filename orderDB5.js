@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 
 function Start () {
 
@@ -13,57 +13,15 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hey.\nCan you make me One\nLarge Fry\nand One\nCheeseburger?";
-var a2title = "Could you do One\nSmall Fry and\n2* Small Drinks?";
-var a3title = "All right!\nOne Burger\nwith Tomato\nand One Large Fry.";
-var a4title = "Burger Machine?\n2* Medium Drinks.\nPlease.";
-var a5title = "Hi!\n2* Cheeseburgers with\nEverything on it.";
-var a6title = "Can I have\nOne Double Burger\nwith Pickles\nand 2*\nMedium Fries.";
-var a7title = "Hello?\nYeah. One\nTriple Cheeseburger.\nThanks.";
+var e1title = "I would like\nOne Burger\nwith Everything\nand 2* Small Fries.";
+var e2title = "2* Cheeseburgers\nwith Sauce\nand Double Pickles.\nAnd One Large Fry.";
+var e3title = "Hello Again.\n2* Grilled Cheeses\nwith Onion\nNo Sauce Please.";
+var e4title = "2*Small Fries.\nOne Double Burger\nwith 2* Pickles\nand 2* Tomato.\nThanks.";
+var e5title = "Give me One Burger\nwith 2* Cheese\n Double Onion\nand Double Sauce.";
+var e6title = "Hi!";
+var e7title = "";
 	
-var a1order = [
-    1,//lgFriesMade
-    0,//mdFriesMade
-    0,//smFriesMade
-    1,//pattiesMade
-    1,//cheeseMade
-    0,//picklesMade
-	0,//tomatoesMade
-	0,//onionsMade
-	0,//sauceMade
-	0,//lgDrinksMade
-	0,//mdDrinksMade
-	0//smDrinksMade
-	];
-var a2order = [
-    0,//lgFriesMade
-    0,//mdFriesMade
-    1,//smFriesMade
-    0,//pattiesMade
-    0,//cheeseMade
-    0,//picklesMade
-	0,//tomatoesMade
-	0,//onionsMade
-	0,//sauceMade
-	0,//lgDrinksMade
-	0,//mdDrinksMade
-	2//smDrinksMade
-	];
-var a3order = [
-    1,//lgFriesMade
-    0,//mdFriesMade
-    0,//smFriesMade
-    1,//pattiesMade
-    0,//cheeseMade
-    0,//picklesMade
-	1,//tomatoesMade
-	0,//onionsMade
-	0,//sauceMade
-	0,//lgDrinksMade
-	0,//mdDrinksMade
-	0//smDrinksMade
-	];
-var a4order = [
+var e1order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -74,30 +32,16 @@ var a4order = [
 	0,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
-	2,//mdDrinksMade
-	0//smDrinksMade
-	];
-var a5order = [
-    0,//lgFriesMade
-    0,//mdFriesMade
-    0,//smFriesMade
-    2,//pattiesMade
-    2,//cheeseMade
-    2,//picklesMade
-	2,//tomatoesMade
-	0,//onionsMade
-	0,//sauceMade
-	0,//lgDrinksMade
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var a6order = [
+var e2order = [
     0,//lgFriesMade
-    2,//mdFriesMade
+    0,//mdFriesMade
     0,//smFriesMade
-    2,//pattiesMade
+    0,//pattiesMade
     0,//cheeseMade
-    1,//picklesMade
+    0,//picklesMade
 	0,//tomatoesMade
 	0,//onionsMade
 	0,//sauceMade
@@ -105,12 +49,68 @@ var a6order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var a7order = [
+var e3order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
-    3,//pattiesMade
-    3,//cheeseMade
+    0,//pattiesMade
+    0,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var e4order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    0,//pattiesMade
+    0,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var e5order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    0,//pattiesMade
+    0,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var e6order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    0,//pattiesMade
+    0,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var e7order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    0,//pattiesMade
+    0,//cheeseMade
     0,//picklesMade
 	0,//tomatoesMade
 	0,//onionsMade

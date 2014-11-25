@@ -15,7 +15,7 @@ function Update () {
 
 var c1title = "Hello.\n2* double\nCheeseburgers\nwith Onions.";
 var c2title = "Hey. Hey.\nCan I have\n2* Small Fries\nand 2* Large Drinks?";
-var c3title = "Yes. Hi.\nOne Burger\nwith Tomato please.\nNo Onions.";
+var c3title = "Yes. Hi.\nOne Burger\nwith Tomato please.\nNo Onions.\nand One Small Drink.";
 var c4title = "2* Cheeseburgers\nwith Everything.\nThanks.";
 var c5title = "Woo!\nBurger Machine!\n2* Double Burgers\nwith Double Onions\nand 2* Large Fries!\nThanks!";
 var c6title = "One Quad\nCheeseburger\nOne Large Fry\nand 2* Pickles\non the side.";
