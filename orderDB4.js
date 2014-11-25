@@ -13,15 +13,15 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var d1title = "Hey there.\n2* Burgers\nNo cheese\nwith Everything.";
-var d2title = "Yo.\nOne Triple\nCheeseburger\nwith Onion.\nNo Pickle.\nAnd 2* Small Drinks.";
-var d3title = "Hola.\n2* Large Fries\n2* Medium Drinks\nOne Pickle\nand 2* Burgers.\nGracias.";
-var d4title = "Can I get\n2* Double Cheeseburgers.\nNo Tomato.\nNo Pickle.\nNo Onion.\nAnd 2* Small Fries?";
-var d5title = "Can You make me\nOne Grilled Cheese\nwith Everything?\nAnd 2* Medium Fries.";
-var d6title = "\nI want 2* Pickles!";
-var d7title = "Dude...\nUhh...\nCheeseburger.\nDouble Onions.\nDrink.\nLarge.";
+var a1title = "Hey there.\n2* Burgers\nNo cheese\nwith Everything.";
+var a2title = "Yo.\nOne Triple\nCheeseburger\nwith Onion.\nNo Pickle.\nAnd 2* Small Drinks.";
+var a3title = "Hola.\n2* Large Fries\n2* Medium Drinks\nOne Pickle\nand 2* Burgers.\nGracias.";
+var a4title = "Can I get\n2* Double Cheeseburgers.\nNo Tomato.\nNo Pickle.\nNo Onion.\nAnd 2* Small Fries?";
+var a5title = "Can You make me\nOne Grilled Cheese\nwith Everything?\nAnd 2* Medium Fries.";
+var a6title = "\nI want 2* Pickles!";
+var a7title = "Dude...\nUhh...\nCheeseburger.\nDouble Onions.\nDrink.\nLarge.";
 	
-var d1order = [
+var a1order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -35,7 +35,7 @@ var d1order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var d2order = [
+var a2order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -49,7 +49,7 @@ var d2order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var d3order = [
+var a3order = [
     2,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -63,7 +63,7 @@ var d3order = [
 	2,//mdDrinksMade
 	0//smDrinksMade
 	];
-var d4order = [
+var a4order = [
     0,//lgFriesMade
     0,//mdFriesMade
     2,//smFriesMade
@@ -77,7 +77,7 @@ var d4order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var d5order = [
+var a5order = [
     0,//lgFriesMade
     2,//mdFriesMade
     0,//smFriesMade
@@ -91,7 +91,7 @@ var d5order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var d6order = [
+var a6order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -105,7 +105,7 @@ var d6order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var d7order = [
+var a7order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade

@@ -13,15 +13,15 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var c1title = "Hello.\n2* double\nCheeseburgers\nwith Onions.";
-var c2title = "Hey. Hey.\nCan I have\n2* Small Fries\nand 2* Large Drinks?";
-var c3title = "Yes. Hi.\nOne Burger\nwith Tomato please.\nNo Onions.\nand One Small Drink.";
-var c4title = "2* Cheeseburgers\nwith Everything.\nThanks.";
-var c5title = "Woo!\nBurger Machine!\n2* Double Burgers\nwith Double Onions\nand 2* Large Fries!\nThanks!";
-var c6title = "One Quad\nCheeseburger\nOne Large Fry\nand 2* Pickles\non the side.";
-var c7title = "Can I have\n2* Medium Drinks\nOne Small Fry\nand 2* Double Burgers?";
+var a1title = "Hello.\n2* double\nCheeseburgers\nwith Onions.";
+var a2title = "Hey. Hey.\nCan I have\n2* Small Fries\nand 2* Large Drinks?";
+var a3title = "Yes. Hi.\nOne Burger\nwith Tomato please.\nNo Onions.\nand One Small Drink.";
+var a4title = "2* Cheeseburgers\nwith Everything.\nThanks.";
+var a5title = "Woo!\nBurger Machine!\n2* Double Burgers\nwith Double Onions\nand 2* Large Fries!\nThanks!";
+var a6title = "One Quad\nCheeseburger\nOne Large Fry\nand 2* Pickles\non the side.";
+var a7title = "Can I have\n2* Medium Drinks\nOne Small Fry\nand 2* Double Burgers?";
 	
-var c1order = [
+var a1order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -35,7 +35,7 @@ var c1order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var c2order = [
+var a2order = [
     0,//lgFriesMade
     0,//mdFriesMade
     2,//smFriesMade
@@ -49,7 +49,7 @@ var c2order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var c3order = [
+var a3order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -63,7 +63,7 @@ var c3order = [
 	0,//mdDrinksMade
 	1//smDrinksMade
 	];
-var c4order = [
+var a4order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -77,7 +77,7 @@ var c4order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var c5order = [
+var a5order = [
     2,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -91,7 +91,7 @@ var c5order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var c6order = [
+var a6order = [
     1,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -105,7 +105,7 @@ var c6order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var c7order = [
+var a7order = [
     0,//lgFriesMade
     0,//mdFriesMade
     1,//smFriesMade
