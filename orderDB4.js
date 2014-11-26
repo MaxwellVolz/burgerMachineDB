@@ -14,10 +14,10 @@ function Update () {
 //6 lines maximum - short orders can start with a \n - needs testing.
 
 var a1title = "Hey there.\n2* Burgers\nNo cheese\nwith Everything.";
-var a2title = "Yo.\nOne Triple\nCheeseburger\nwith Onion.\nNo Pickle.\nAnd 2* Small Drinks.";
-var a3title = "Hola.\n2* Large Fries\n2* Medium Drinks\nOne Pickle\nand 2* Burgers.\nGracias.";
+var a2title = "Yo.\n1 Triple\nCheeseburger\nwith Onion.\nNo Pickle.\nAnd 2* Small Drinks.";
+var a3title = "Hola.\n2* Large Fries\n2* Medium Drinks\n1 Pickle\nand 2* Burgers.\nGracias.";
 var a4title = "Can I get\n2 Double Cheeseburgers\nNo Tomato\nNo Pickle\nNo Onion\nAnd 2* Small Fries?";
-var a5title = "Can You make me\nOne Grilled Cheese\nwith Everything?\nAnd 2* Medium Fries.";
+var a5title = "Can You make me\n1 Grilled Cheese\nwith Everything?\nAnd 2* Medium Fries.";
 var a6title = "\nI want 2* Pickles!";
 var a7title = "Dude...\nUhh...\nCheeseburger.\nDouble Onions.\nDrink.\nLarge.";
 	

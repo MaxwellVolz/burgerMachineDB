@@ -16,11 +16,11 @@ function Update () {
 
 var a1title = "Hello.\n2 Double Cheeseburgers\nwith Double Onions.";
 var a2title = "Hey. Hey.\nCan I have\n2* Small Fries\nand 2* Large Drinks?";
-var a3title = "Yes. Hi.\nOne Burger\nwith Tomato please.\nNo Onions.\nand One Small Drink.";
+var a3title = "Yes. Hi.\n1 Burger\nwith Tomato please.\nNo Onions.\nand 1 Small Drink.";
 var a4title = "2* Cheeseburgers\nwith Everything.\nThanks.";
-var a5title = "Woo!\nBurger Machine!\nOne Double Burger\nwith Double Onions\nand 2* Large Fries!\nThanks!";
-var a6title = "One Quad\nCheeseburger\nOne Large Fry\nand 2* Pickles\non the side.";
-var a7title = "Can I have\n2* Medium Drinks\nOne Small Fry\nand 2* Double Burgers?";
+var a5title = "Woo!\nBurger Machine!\n1 Double Burger\nwith Double Onions\nand 2* Large Fries!\nThanks!";
+var a6title = "1 Quad\nCheeseburger\n1 Large Fry\nand 2* Pickles\non the side.";
+var a7title = "Can I have\n2* Medium Drinks\n1 Small Fry\nand 2* Double Burgers?";
 	
 var a1order = [
     0,//lgFriesMade

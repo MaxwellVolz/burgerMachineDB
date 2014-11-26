@@ -12,13 +12,14 @@ function Update () {
 //less than 19 characters per line
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
+//Sauce added to order list
 
-var a1title = "I would like\nOne Burger\nwith Everything\nNo Cheese\nand 2* Small Fries.";
-var a2title = "2* Cheeseburgers\nwith Sauce\nand Double Pickles.\nAnd One Large Fry.";
+var a1title = "I would like\n1 Burger\nwith Everything\nNo Cheese\nand 2* Small Fries.";
+var a2title = "2* Cheeseburgers\nwith Sauce\nand Double Pickles.\nAnd 1 Large Fry.";
 var a3title = "Hello Again.\n2* Grilled Cheeses\nwith Onion\nNo Sauce Please.";
-var a4title = "2* Small Fries.\nOne Double Burger\nwith 2* Pickles\nand 2* Tomato.\nThanks.";
-var a5title = "Give me One Burger\nwith 2* Cheese\nDouble Onion\nand Double Sauce.";
-var a6title = "Hi!\n2* Large Fries\n2* Small Drinks\nOne Burger\nwith no Onion.";
+var a4title = "2* Small Fries.\n1 Double Burger\nwith 2* Pickles\nand 2* Tomato.\nThanks.";
+var a5title = "Give me 1 Burger\nwith 2* Cheese\nDouble Onion\nand Double Sauce.";
+var a6title = "Hi!\n2* Large Fries\n2* Small Drinks\n1 Burger\nwith no Onion.";
 var a7title = "I am Hungry\n2 Double Cheeseburgers\nwith Double Everything.";
 	
 var a1order = [
