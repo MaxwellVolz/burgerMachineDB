@@ -81,8 +81,8 @@ var a5order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
-    2,//pattiesMade
-    2,//cheeseMade
+    1,//pattiesMade
+    1,//cheeseMade
     2,//picklesMade
 	2,//tomatoesMade
 	0,//onionsMade
