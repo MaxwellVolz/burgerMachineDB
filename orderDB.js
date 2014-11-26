@@ -17,7 +17,7 @@ var a1title = "Hey.\nCan you make me One\nLarge Fry\nand One\nCheeseburger?";
 var a2title = "Could you do One\nSmall Fry and\n2* Small Drinks?";
 var a3title = "All right!\nOne Burger\nwith Tomato\nand One Large Fry.";
 var a4title = "Burger Machine?\n2* Medium Drinks.\nPlease.";
-var a5title = "Hi!\n2* Cheeseburgers with\nEverything on it.";
+var a5title = "Hi!\n2* Cheeseburgers with\nEverything on them.";
 var a6title = "Can I have\nOne Double Burger\nwith Pickles\nand 2*\nMedium Fries.";
 var a7title = "Hello?\nYeah. One\nTriple Cheeseburger.\nThanks.";
 	

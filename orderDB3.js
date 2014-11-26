@@ -12,12 +12,13 @@ function Update () {
 //less than 19 characters per line
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
+//Onions Added to Order List
 
-var a1title = "Hello.\n2* double\nCheeseburgers\nwith Onions.";
+var a1title = "Hello.\n2 Double Cheeseburgers\nwith Double Onions.";
 var a2title = "Hey. Hey.\nCan I have\n2* Small Fries\nand 2* Large Drinks?";
 var a3title = "Yes. Hi.\nOne Burger\nwith Tomato please.\nNo Onions.\nand One Small Drink.";
 var a4title = "2* Cheeseburgers\nwith Everything.\nThanks.";
-var a5title = "Woo!\nBurger Machine!\n2* Double Burgers\nwith Double Onions\nand 2* Large Fries!\nThanks!";
+var a5title = "Woo!\nBurger Machine!\nOne Double Burger\nwith Double Onions\nand 2* Large Fries!\nThanks!";
 var a6title = "One Quad\nCheeseburger\nOne Large Fry\nand 2* Pickles\non the side.";
 var a7title = "Can I have\n2* Medium Drinks\nOne Small Fry\nand 2* Double Burgers?";
 	
@@ -29,7 +30,7 @@ var a1order = [
     4,//cheeseMade
     0,//picklesMade
 	0,//tomatoesMade
-	2,//onionsMade
+	4,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
@@ -81,11 +82,11 @@ var a5order = [
     2,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
-    4,//pattiesMade
+    2,//pattiesMade
     0,//cheeseMade
     0,//picklesMade
 	0,//tomatoesMade
-	4,//onionsMade
+	2,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
