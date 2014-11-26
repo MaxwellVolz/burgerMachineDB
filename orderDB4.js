@@ -15,9 +15,9 @@ function Update () {
 
 var a1title = "Hey there.\n2* Burgers\nno cheese\nwith Everything.";
 var a2title = "Yo.\n1 Triple\nCheeseburger\nwith Onion.\nNo Pickle.\nAnd 2* Small Drinks.";
-var a3title = "Hola.\n2* Large Fries\n1 Medium Drinks\n1 Pickle\nand 2* Burgers.\nGracias.";
+var a3title = "Hola.\n2* Large Fries\n1 Medium Drink\n1 Pickle\nand 1 Burger.\nGracias.";
 var a4title = "Can I get\n2* Cheeseburgers\nno Tomato\nno Pickle\nno Onion\nand 1 Small Fries?";
-var a5title = "Can You make me\n1 Grilled Cheese\nwith Everything?\nAnd 2* Medium Fries.";
+var a5title = "Can You make me\n1 Grilled Cheese\nwith Everything?";
 var a6title = "\nI want 2* Pickles!";
 var a7title = "Dude...\nUhh...\nCheeseburger.\nDouble Onions.\nDrink.\nLarge.";
 	
@@ -53,7 +53,7 @@ var a3order = [
     2,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
-    2,//pattiesMade
+    1,//pattiesMade
     0,//cheeseMade
     1,//picklesMade
 	0,//tomatoesMade
@@ -79,7 +79,7 @@ var a4order = [
 	];
 var a5order = [
     0,//lgFriesMade
-    2,//mdFriesMade
+    0,//mdFriesMade
     0,//smFriesMade
     0,//pattiesMade
     1,//cheeseMade

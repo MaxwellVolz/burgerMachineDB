@@ -19,7 +19,7 @@ var a2title = "Hey. Hey.\nCan I have\n2* Small Fries\nand 2* Large Drinks?";
 var a3title = "Yes. Hi.\n1 Burger\nwith Tomato please.\nNo Onions.\nand 2* Small Drinks.";
 var a4title = "2 Cheeseburgers\nwith Everything.\nThanks.";
 var a5title = "Woo!\nBurger Machine!\n1 Double Burger\nwith Double Onions\nand 2* Large Fries!\nThanks!";
-var a6title = "1 Quad\nCheeseburger\n1 Large Fry\nand 2* Pickles\non the side.";
+var a6title = "1 Double\nCheeseburger\n1 Large Fry\nand 2* Pickles\non the side.";
 var a7title = "Can I have\n2* Medium Drinks\n1 Small Fry\nand 2* Burgers?";
 	
 var a1order = [
@@ -96,8 +96,8 @@ var a6order = [
     1,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
-    4,//pattiesMade
-    4,//cheeseMade
+    2,//pattiesMade
+    2,//cheeseMade
     2,//picklesMade
 	0,//tomatoesMade
 	0,//onionsMade
