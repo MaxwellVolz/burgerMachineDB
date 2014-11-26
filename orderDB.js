@@ -33,7 +33,7 @@ var a1order = [
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
-	0,//smDrinksMade
+	0//smDrinksMade
 	];
 var a2order = [
     0,//lgFriesMade
@@ -47,7 +47,7 @@ var a2order = [
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
-	2,//smDrinksMade
+	2//smDrinksMade
 	];
 var a3order = [
     1,//lgFriesMade
@@ -61,7 +61,7 @@ var a3order = [
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
-	0,//smDrinksMade
+	0//smDrinksMade
 	];
 var a4order = [
     0,//lgFriesMade
@@ -75,7 +75,7 @@ var a4order = [
 	0,//sauceMade
 	0,//lgDrinksMade
 	2,//mdDrinksMade
-	0,//smDrinksMade
+	0//smDrinksMade
 	];
 var a5order = [
     0,//lgFriesMade
@@ -89,7 +89,7 @@ var a5order = [
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
-	0,//smDrinksMade
+	0//smDrinksMade
 	];
 var a6order = [
     0,//lgFriesMade
@@ -103,7 +103,7 @@ var a6order = [
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
-	0,//smDrinksMade
+	0//smDrinksMade
 	];
 var a7order = [
     0,//lgFriesMade
@@ -117,5 +117,5 @@ var a7order = [
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
-	0,//smDrinksMade
+	0//smDrinksMade
 	];
