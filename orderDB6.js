@@ -13,13 +13,23 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hello.\n I want\n2* Medium Fries\n1 Double Burger\nwith 2* Pickles\nand Double Sauce.";
-var a2title = "1 Cheeseburger\nwith 2* of Everything\nand 1 Large Fry.";
-var a3title = "Yes! Finally!\nThat line is Long!\n2* Burgers with\nOnion and Sauce\nand 2* Small Drinks.";
-var a4title = "Give Me\n7 Cheeseburgers\nThats right 7.";
-var a5title = "You got Onions?\n1 Cheeseburger\nwith Everything\nand Double Onions.";
-var a6title = "Hey.\n2* Medium Drinks\n2* Large Fries\nand 2* Burgers.\nPlease.";
-var a7title = "Just 1 Pickle.\nI love Pickle.";
+var a1title = "Hello\n I want\n2 medium fries\n1 double burger\nwith 2 pickles\nand double sauce.";
+var a2title = "1 cheeseburger\nwith 2 of everything\nand 1 large fry.";
+var a3title = "Yes finally\nthat line is long\n2 burgers with\nonion and sauce\nand 2 small drinks.";
+var a4title = "\nGive me\n7 cheeseburgers\nthat's right 7.";
+var a5title = "You got onions?\n1 cheeseburger\nwith everything\nand double onions.";
+var a6title = "Hey\n2 medium drinks\n2 large fries\nand 2 burgers\nplease.";
+var a7title = "\nJust 2 burgers\nwith double sauce\nI love burgers.";
+
+var b1title = "Hi there\n I want\n5 medium fries\n1 double burger\nwith double sauce.";
+var b2title = "2 cheeseburgers\nwith everything\nand 3 large fries.";
+var b3title = "Yes finally\nthat line is long\n4 burgers with\nonion and sauce\nand 1 small drink.";
+var b4title = "\nGive me\n1 cheeseburger\nwith 5 extra cheese.";
+var b5title = "You got onions?\n3 cheeseburgers\nno onions.";
+var b6title = "Hey\n3 small drinks\n1 large fry\nand 4 burgers\nplease.";
+var b7title = "\nJust 5 burgers\nwith onion\nand tomato.";
+
+var c1title = "Hi\n I need\n1 medium drink\n2 double burgers\nwith cheese.";
 	
 var a1order = [
     0,//lgFriesMade
@@ -119,3 +129,117 @@ var a7order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
+	
+var b1order = [
+    0,//lgFriesMade
+    5,//mdFriesMade
+    0,//smFriesMade
+    2,//pattiesMade
+    0,//cheeseMade
+    2,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	2,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var b2order = [
+    3,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    2,//pattiesMade
+    2,//cheeseMade
+    2,//picklesMade
+	2,//tomatoesMade
+	2,//onionsMade
+	2,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var b3order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    4,//pattiesMade
+    0,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	4,//onionsMade
+	4,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	1//smDrinksMade
+	];
+var b4order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    1,//pattiesMade
+    6,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var b5order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    3,//pattiesMade
+    3,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+var b6order = [
+    1,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    4,//pattiesMade
+    0,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	3//smDrinksMade
+	];
+var b7order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    5,//pattiesMade
+    0,//cheeseMade
+    0,//picklesMade
+	5,//tomatoesMade
+	5,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];	
+	
+var c1order = [
+    0,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    4,//pattiesMade
+    2,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	1,//mdDrinksMade
+	0//smDrinksMade
+	];		
