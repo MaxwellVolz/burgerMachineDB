@@ -14,12 +14,12 @@ function Update () {
 //6 lines maximum - short orders can start with a \n - needs testing.
 //Sauce added to order list
 
-var a1title = "I would like\n1 burger\nwith everything\nno cheese\nand 2 small fries.";
-var a2title = "2 cheeseburgers\nwith sauce\ndouble pickles\nand 1 large fry.";
-var a3title = "Hello again\n1 grilled cheese\nwith 2 onions\nno sauce please.";
-var a4title = "2 small fries\n1 double burger\nwith pickle\nand 2 tomato\nthanks.";
-var a5title = "Give me 1 Burger\nwith 2 cheese\ndouble onion\nand double sauce.";
-var a6title = "Hi\n2 large fries\n2 small drinks\n1 burger\nwith no onion.";
+var a1title = "I would like\n1 burger\nwith everything,\nno cheese,\nand 2 small fries.";
+var a2title = "2 cheeseburgers\nwith sauce and\ndouble pickles,\nand 1 large fry.";
+var a3title = "Hello again.\n1 grilled cheese\nwith 2 onions.\nNo sauce please.";
+var a4title = "2 small fries,\n1 double burger\nwith pickle\nand 2 tomato.\nThanks.";
+var a5title = "Give me 1 burger\nwith 2 cheese,\ndouble onion,\nand double sauce.";
+var a6title = "Hi\n2 large fries,\n2 small drinks,\n1 burger\nwith no onion.";
 var a7title = "I am hungry\n2 double\ncheeseburgers\nwith everything.";
 
 var b1title = "I want\n2 burgers\nwith cheese\nno pickles\nand 4 small fries.";
@@ -122,10 +122,10 @@ var a7order = [
     0,//smFriesMade
     4,//pattiesMade
     4,//cheeseMade
-    2,//picklesMade
-	2,//tomatoesMade
-	2,//onionsMade
-	2,//sauceMade
+    4,//picklesMade
+	4,//tomatoesMade
+	4,//onionsMade
+	4,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
 	0//smDrinksMade
@@ -167,7 +167,7 @@ var b3order = [
     2,//cheeseMade
     0,//picklesMade
 	0,//tomatoesMade
-	2,//onionsMade
+	0,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
@@ -233,13 +233,13 @@ var b7order = [
 var c1order = [
     0,//lgFriesMade
     0,//mdFriesMade
-    0,//smFriesMade
-    4,//pattiesMade
-    4,//cheeseMade
-    4,//picklesMade
-	4,//tomatoesMade
-	4,//onionsMade
-	4,//sauceMade
+    1,//smFriesMade
+    2,//pattiesMade
+    2,//cheeseMade
+    2,//picklesMade
+	2,//tomatoesMade
+	2,//onionsMade
+	2,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
 	0//smDrinksMade

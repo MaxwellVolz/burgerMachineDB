@@ -30,7 +30,7 @@ var b5title = "Hey\n5 ngrilled cheeses\nwith onion\nthanks.";
 var b6title = "I need\n1 double cheeseburger\nwith 4 sauce\nand 6 large drinks.";
 var b7title = "I am the CEO of\nBurger Machine 2020\nYou Win!\nso make me\n1 grilled cheese.";
 	
-var b1title = "Hope you're ready\n1 double burger\nwith 2 onion\nno sauce\n4 pickles\nand 3 small fries.";
+var c1title = "Hope you're ready\n1 double burger\nwith 2 onion\nno sauce\n4 pickles\nand 3 small fries.";
 	
 var a1order = [
     0,//lgFriesMade
@@ -201,7 +201,7 @@ var b5order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var a6order = [
+var b6order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade
@@ -215,7 +215,7 @@ var a6order = [
 	0,//mdDrinksMade
 	0//smDrinksMade
 	];
-var a7order = [
+var b7order = [
     0,//lgFriesMade
     0,//mdFriesMade
     0,//smFriesMade

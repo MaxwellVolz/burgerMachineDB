@@ -13,23 +13,23 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hi\nI want 1\ndouble cheeseburger\nwith pickles\nand 1 small fry.";
-var a2title = "Hey there\nCan I have\n2 small drinks\n1 large fry\nand 1\ncheeseburger?";
+var a1title = "Hi,\nI want a\ndouble cheeseburger\nwith pickles,\nand 1 small fry.";
+var a2title = "Hey there,\ncan I have\n2 small drinks,\n1 large fry,\nand a\ncheeseburger?";
 var a3title = "\n\n1 cheeseburger\nwith everything.";
-var a4title = "\nCool Just 2\nmedium fries and\n1 small drink.";
-var a5title = "Yo Yo\nLet me have\n2 burgers\nwith pickle\nand tomato.";
-var a6title = "Hello\n1 burger\n1 large drink\nand 2 small fries\nthanks.";
-var a7title = "Can I have\n2 drinks\nsmall\nmedium\nand large\nthank you!";
+var a4title = "\nCool, just 2\nmedium fries and\n1 small drink.";
+var a5title = "Yo Yo\nlet me have\n2 burgers\nwith pickles\nand tomatoes.";
+var a6title = "Hello,\n1 burger,\n1 large drink,\nand 2 small fries.\nThanks.";
+var a7title = "Can I have\n2 drinks.\nSmall,\nMedium\nand Large.\nThank you!";
 
-var b1title = "\nI want 1\ndouble cheeseburgers\nwith onion.";
-var b2title = "Hey\nCan I have\n1 small drink\n2 large fries\nand 2\ncheeseburgers?";
-var b3title = "1 cheeseburger\nwith everything\nno pickle please.";
-var b4title = "\nNeat Just 2\nsmall fries and\n2 small drinks.";
-var b5title = "Yo\nLet me have\n3 burgers\nwith pickle.";
-var b6title = "Hello\n1 burger\nwith triple cheese\nand 2 small drinks\nthanks.";
+var b1title = "\n\nI want a\ndouble cheeseburger";
+var b2title = "Hey..\nCan I have\n1 small drink\n2 large fries\nand 2\ncheeseburgers?";
+var b3title = "\n1 cheeseburger\nwith everything\nno pickle please.";
+var b4title = "\nNeat! Just 2\nsmall fries and\n2 small drinks.";
+var b5title = "Yo\nLet me have\n3 burgers\nwith pickles.";
+var b6title = "Hello!\n1 burger\nwith triple cheese\nand 2 small drinks.\nThanks.";
 var b7title = "Can I get\n2 fries\nsmall\nmedium\nand large\nthank you!";
 	
-var c1title = "Hey\nI need 2\ncheeseburgers\nwith onion\nand tomato.";	
+var c1title = "Hey\nI need 2\ncheeseburgers\nwith a tomato.";	
 	
 var a1order = [
     0,//lgFriesMade
@@ -93,8 +93,8 @@ var a5order = [
     0,//smFriesMade
     2,//pattiesMade
     0,//cheeseMade
-    1,//picklesMade
-	1,//tomatoesMade
+    2,//picklesMade
+	2,//tomatoesMade
 	0,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
@@ -138,7 +138,7 @@ var b1order = [
     2,//cheeseMade
     0,//picklesMade
 	0,//tomatoesMade
-	1,//onionsMade
+	0,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
@@ -237,7 +237,7 @@ var c1order = [
     2,//cheeseMade
     0,//picklesMade
 	2,//tomatoesMade
-	2,//onionsMade
+	0,//onionsMade
 	0,//sauceMade
 	0,//lgDrinksMade
 	0,//mdDrinksMade
