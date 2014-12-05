@@ -18,7 +18,7 @@ var a1title = "Hope you're ready!!\n1 double burger\nwith 2 tomatoes,\nno onions
 var a2title = "Oh boy,\n2 triple\ncheeseburgers...\nno pickles...\ndouble onions.";
 var a3title = "I'm starving!\nHurry up!\n2 small drinks!\n2 large fries!\n2 medium fries!";
 var a4title = "\n2 double\ncheeseburgers\nplease.";
-var a5title = "Hello\n2 double\ngrilled cheeses\nwith onion\nthanks.";
+var a5title = "Hello\n2 double\ngrilled cheeses\nwith onions.\nThanks.";
 var a6title = "I want\n1 double cheeseburger,\nno cheese,\nwith 2 sauce,\nand 2 large drinks.";
 var a7title = "I am the CEO of\nBurger Machine 2020,\nyou Win!\nSo...make me\na burger.";
 
@@ -26,8 +26,8 @@ var b1title = "Hope you're ready!\n3 cheeseburgers\nwith tomatoes,\nno onions,\n
 var b2title = "Oh good,\n1 quad\ncheeseburger,\nno pickles,\n5 onions.";
 var b3title = "I am starving!\n2 large drinks,\n6 small fries,\nand 4 medium fries.";
 var b4title = "\n4 double\ncheeseburgers\nplease.";
-var b5title = "Hey!\n5 ngrilled cheeses\nwith onion!\nThanks.";
-var b6title = "I need\n1 double cheeseburger\nwith 4 sauce,\nand 6 large drinks.\nYusss.";
+var b5title = "Hey!\n5 ngrilled cheeses\nwith onions!\nThanks!";
+var b6title = "I need\n1 double cheeseburger\nwith 4 sauce,\nand 6 large drinks.\nYes!";
 var b7title = "I am the CEO of\nBurger Machine 2020.\nYou Win!\nSo...make me\na grilled cheese!";
 	
 var c1title = "Hope you're ready!\n1 double burger\nwith 2 onions,\nno sauce,\n4 pickles,\nand 3 small fries.";

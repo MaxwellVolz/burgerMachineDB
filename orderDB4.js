@@ -23,11 +23,11 @@ var a7title = "Dude\nuhh...\ncheeseburger...\ndouble onions...\na...large drink.
 	
 var b1title = "\nHello,\n4 cheeseburgers\nwith onion.";
 var b2title = "Hey.\n2 double\ncheeseburgers,\nnno pickles,\nand 2 small drinks.";
-var b3title = "Hi there!\n2 large fries,\n2 medium drink,\n3 pickles,\nand 1 burger.\nThanks.";
+var b3title = "Hi there!\n2 large fries,\n2 medium drinks,\n3 pickles,\nand 1 burger.\nThanks.";
 var b4title = "Can I have\n1 cheeseburger\nwith tomato,\nno pickles,\nno onions\nand 4 small fries?";
 var b5title = "\n\nLet me have like\n4 cheese slices.";
 var b6title = "\nJust a\ncheeseburger\nwith extra cheese.";
-var b7title = "Dude.\n4 large fries.\n3 medium drinks.\nand 2 small fries.\nThanks dude.";	
+var b7title = "Dude.\n4 large fries,\n3 medium drinks,\nand 2 small fries.\nThanks dude.";	
 	
 var c1title = "Hello,\n3 cheeseburgers\nno onion.";	
 	

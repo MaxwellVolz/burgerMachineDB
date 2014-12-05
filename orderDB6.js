@@ -15,7 +15,7 @@ function Update () {
 
 var a1title = "Hello!\n I want\n2 medium fries,\na double burger\nwith 2 pickles,\nand double sauce.";
 var a2title = "1 cheeseburger\nwith 2 of everything,\nand 1 large fry.";
-var a3title = "Yes! Finally!\nThat line is long!\n2 burgers with\nonion and sauce\nand 2 small drinks.";
+var a3title = "Yes! Finally!\nThat line is long!\n2 burgers with\nonions and sauce\nand 2 small drinks.";
 var a4title = "\nGive me\n7 cheeseburgers\nthat's right 7.";
 var a5title = "You got onions?\n1 cheeseburger\nwith everything\nand double onions.";
 var a6title = "Hey\n2 medium drinks\n2 large fries\nand 2 burgers\nplease.";

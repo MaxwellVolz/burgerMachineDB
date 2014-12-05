@@ -27,7 +27,7 @@ var b2title = "Hi.\nCan you make\n3 small fries\nand 1 large drink?";
 var b3title = "Yes. Hello.\n1 burger\nno tomato\nwith onion,\nand 3 small drinks.";
 var b4title = "\n3 cheeseburgers\nwith everything.\n\nThanks.";
 var b5title = "Woo!!\nBurger Machine!!!\n1 double burger\nand 3 large fries!\nThanks!";
-var b6title = "1 double\ncheeseburger,\n2 small fry,\nand 3 pickles\non the side.";
+var b6title = "1 double\ncheeseburger,\n2 small fries,\nand 3 pickles\non the side.";
 var b7title = "Can I get\n3 medium drinks,\n2 small fries,\nand 1 burger?";	
 
 var c1title = "Hi.\n2 double\ncheeseburgers\nand 2 small fries.";
