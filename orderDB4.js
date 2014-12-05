@@ -13,23 +13,23 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hey there\n2 burgers\nno cheese\nwith everything.";
-var a2title = "Yo\n1 triple\ncheeseburger\nwith onion\nno pickle\nand 2 small drinks.";
-var a3title = "Hola\n2 large fries\n1 medium drink\n1 pickle\nand 1 burger\ngracias.";
-var a4title = "Can I get\n2 cheeseburgers\nno tomato\nno pickle\nno onion\nand 1 small fry?";
+var a1title = "Hey there.\n2 burgers,\nno cheese,\nwith everything.";
+var a2title = "Yo!\n1 triple\ncheeseburger\nwith onion,\nno pickles,\nand 2 small drinks.";
+var a3title = "Hola.\n2 large fries,\n1 medium drink,\n1 pickle,\nand 1 burger.\nGracias.";
+var a4title = "Can I get\n2 cheeseburgers,\nno tomatoes,\nno pickles,\nno onions,\nand 1 small fry?";
 var a5title = "\nCan you make me\n1 grilled cheese\nwith everything?";
-var a6title = "\n\nI want 2 pickles!";
-var a7title = "Dude\nuhh\ncheeseburger\ndouble onions\nand 1 large drink.";
+var a6title = "\n\n\nI want 2 pickles!";
+var a7title = "Dude\nuhh...\ncheeseburger...\ndouble onions...\na...large drink.";
 	
-var b1title = "\nHello\n4 cheeseburgers\nwith onion.";
-var b2title = "Hey\n2 double\ncheeseburgers\nnno pickle\nand 2 small drinks.";
-var b3title = "Hi there\n2 large fries\n2 medium drink\n3 pickle\nand 1 burger\nthanks.";
-var b4title = "Can I have\n1 cheeseburger\nwith tomato\nno pickle\nno onion\nand 4 small fries?";
+var b1title = "\nHello,\n4 cheeseburgers\nwith onion.";
+var b2title = "Hey.\n2 double\ncheeseburgers,\nnno pickles,\nand 2 small drinks.";
+var b3title = "Hi there!\n2 large fries,\n2 medium drink,\n3 pickles,\nand 1 burger.\nThanks.";
+var b4title = "Can I have\n1 cheeseburger\nwith tomato,\nno pickles,\nno onions\nand 4 small fries?";
 var b5title = "\n\nLet me have like\n4 cheese slices.";
 var b6title = "\nJust a\ncheeseburger\nwith extra cheese.";
-var b7title = "Dude\n4 large fries\n3 medium drinks\nand 2 small fries.";	
+var b7title = "Dude.\n4 large fries.\n3 medium drinks.\nand 2 small fries.\nThanks dude.";	
 	
-var c1title = "Hello\n3 cheeseburgers\nno onion.";	
+var c1title = "Hello,\n3 cheeseburgers\nno onion.";	
 	
 var a1order = [
     0,//lgFriesMade

@@ -13,23 +13,23 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hello\n I want\n2 medium fries\n1 double burger\nwith 2 pickles\nand double sauce.";
-var a2title = "1 cheeseburger\nwith 2 of everything\nand 1 large fry.";
-var a3title = "Yes finally\nthat line is long\n2 burgers with\nonion and sauce\nand 2 small drinks.";
+var a1title = "Hello!\n I want\n2 medium fries,\na double burger\nwith 2 pickles,\nand double sauce.";
+var a2title = "1 cheeseburger\nwith 2 of everything,\nand 1 large fry.";
+var a3title = "Yes! Finally!\nThat line is long!\n2 burgers with\nonion and sauce\nand 2 small drinks.";
 var a4title = "\nGive me\n7 cheeseburgers\nthat's right 7.";
 var a5title = "You got onions?\n1 cheeseburger\nwith everything\nand double onions.";
 var a6title = "Hey\n2 medium drinks\n2 large fries\nand 2 burgers\nplease.";
 var a7title = "\nJust 2 burgers\nwith double sauce\nI love burgers.";
 
-var b1title = "Hi there\n I want\n5 medium fries\n1 double burger\nwith double sauce.";
+var b1title = "Hi there!\n I want\n5 medium fries.\n1 double burger\nwith double sauce.\nThat's all!";
 var b2title = "2 cheeseburgers\nwith everything\nand 3 large fries.";
-var b3title = "Yes finally\nthat line is long\n4 burgers with\nonion and sauce\nand 1 small drink.";
+var b3title = "Yes! Finally!\nThat line is long!\n4 burgers with\nonion and sauce,\nand 1 small drink.";
 var b4title = "\nGive me\n1 cheeseburger\nwith 5 extra cheese.";
-var b5title = "You got onions?\n3 cheeseburgers\nno onions.";
-var b6title = "Hey\n3 small drinks\n1 large fry\nand 4 burgers\nplease.";
+var b5title = "You got onions?\n3 cheeseburgers,\nno onions.";
+var b6title = "Hey,\n3 small drinks,\n1 large fry,\nand 4 burgers\nplease.";
 var b7title = "\nJust 5 burgers\nwith onion\nand tomato.";
 
-var c1title = "Hi\n I need\n1 medium drink\n2 double burgers\nwith cheese.";
+var c1title = "Hi\n I need\n1 medium drink and\n2 double burgers\nwith cheese.";
 	
 var a1order = [
     0,//lgFriesMade

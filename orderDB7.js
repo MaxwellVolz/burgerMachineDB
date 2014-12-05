@@ -14,23 +14,23 @@ function Update () {
 //6 lines maximum - short orders can start with a \n - needs testing.
 //Final Round
 
-var a1title = "Hope you're ready\n1 double burger\nwith 2 tomato\nno onion\ndouble pickle\nand double sauce.";
-var a2title = "Oh boy\n2 triple\ncheeseburgers\nno pickle\ndouble onion.";
-var a3title = "I'm starving\nhurry up\n2 small drinks\n2 large fries\n2 medium fries.";
-var a4title = "2 double\ncheeseburgers\nplease.";
+var a1title = "Hope you're ready!!\n1 double burger\nwith 2 tomatoes,\nno onions,\ndouble pickles\nand double sauce.";
+var a2title = "Oh boy,\n2 triple\ncheeseburgers...\nno pickles...\ndouble onions.";
+var a3title = "I'm starving!\nHurry up!\n2 small drinks!\n2 large fries!\n2 medium fries!";
+var a4title = "\n2 double\ncheeseburgers\nplease.";
 var a5title = "Hello\n2 double\ngrilled cheeses\nwith onion\nthanks.";
-var a6title = "I want\n1 double cheeseburger\nno cheese\nwith 2 sauce\nand 2 large drinks.";
-var a7title = "I am the CEO of\nBurger Machine 2020\nYou Win!\nso make me\n1 burger.";
+var a6title = "I want\n1 double cheeseburger,\nno cheese,\nwith 2 sauce,\nand 2 large drinks.";
+var a7title = "I am the CEO of\nBurger Machine 2020,\nyou Win!\nSo...make me\na burger.";
 
-var b1title = "Hope you're ready\n3 cheeseburgers\nwith tomato\nno onion\ndouble pickle\nand 1 small fry.";
-var b2title = "Oh good\n1 quad\ncheeseburger\nno pickle\n5 onion.";
-var b3title = "I am starving\n2 large drinks\n6 small fries\nand 4 medium fries.";
-var b4title = "4 double\ncheeseburgers\nplease.";
-var b5title = "Hey\n5 ngrilled cheeses\nwith onion\nthanks.";
-var b6title = "I need\n1 double cheeseburger\nwith 4 sauce\nand 6 large drinks.";
-var b7title = "I am the CEO of\nBurger Machine 2020\nYou Win!\nso make me\n1 grilled cheese.";
+var b1title = "Hope you're ready!\n3 cheeseburgers\nwith tomatoes,\nno onions,\ndouble pickles\nand 1 small fry.";
+var b2title = "Oh good,\n1 quad\ncheeseburger,\nno pickles,\n5 onions.";
+var b3title = "I am starving!\n2 large drinks,\n6 small fries,\nand 4 medium fries.";
+var b4title = "\n4 double\ncheeseburgers\nplease.";
+var b5title = "Hey!\n5 ngrilled cheeses\nwith onion!\nThanks.";
+var b6title = "I need\n1 double cheeseburger\nwith 4 sauce,\nand 6 large drinks.\nYusss.";
+var b7title = "I am the CEO of\nBurger Machine 2020.\nYou Win!\nSo...make me\na grilled cheese!";
 	
-var c1title = "Hope you're ready\n1 double burger\nwith 2 onion\nno sauce\n4 pickles\nand 3 small fries.";
+var c1title = "Hope you're ready!\n1 double burger\nwith 2 onions,\nno sauce,\n4 pickles,\nand 3 small fries.";
 	
 var a1order = [
     0,//lgFriesMade
