@@ -19,7 +19,7 @@ var a3title = "Hola\n2 large fries\n1 medium drink\n1 pickle\nand 1 burger\ngrac
 var a4title = "Can I get\n2 cheeseburgers\nno tomato\nno pickle\nno onion\nand 1 small fry?";
 var a5title = "\nCan you make me\n1 grilled cheese\nwith everything?";
 var a6title = "\n\nI want 2 pickles!";
-var a7title = "Dude\nuhh\ncheeseburger\ndouble onions\ndrink\nlarge.";
+var a7title = "Dude\nuhh\ncheeseburger\ndouble onions\nand 1 large drink.";
 	
 var b1title = "\nHello\n4 cheeseburgers\nwith onion.";
 var b2title = "Hey\n2 double\ncheeseburgers\nnno pickle\nand 2 small drinks.";
