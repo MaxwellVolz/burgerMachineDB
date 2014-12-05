@@ -19,23 +19,23 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hey\ncan you make me\n1 large fry\nand\n1 cheeseburger?";
+var a1title = "Hey.\nCan you make me\n1 large fry\nand\n1 cheeseburger?";
 var a2title = "\nCould you do\n1 small fry and\n2 small drinks?";
-var a3title = "All right\n1 burger\nwith tomato\nand 1 large fry.";
-var a4title = "\nBurger Machine?\n2 medium drinks.\nPlease.";
-var a5title = "\nHi\n1 cheeseburger with\neverything on it!";
+var a3title = "All right.\n1 burger\nwith tomato\nand 1 large fry.";
+var a4title = "\nBurger Machine?\n2 medium drinks\nplease.";
+var a5title = "\nHi!\n1 cheeseburger with\neverything on it!";
 var a6title = "Can I have\n1 double burger\nwith pickles\nand 2\nmedium fries.";
-var a7title = "Hello\nyeah\n1\ntriple cheeseburger.\nthanks.";
+var a7title = "Hello.\nYeah.\n1\ntriple cheeseburger.\nThanks.";
 
-var b1title = "\nHey\ncan you make me\n3 large fries";
+var b1title = "\nHey.\nCan you make me\n3 large fries?";
 var b2title = "Could you do\n2 small fry and\n1 small drink?";
-var b3title = "All right\n1 burger\nwith tomato\nand 1 medium fry.";
+var b3title = "All right.\n1 burger\nwith tomato\nand 1 medium fry.";
 var b4title = "\nBurger Machine?\n2 medium drinks\nplease.";
-var b5title = "\nHi\n1 cheeseburger with\neverything on it!";
+var b5title = "\nHi!\n1 cheeseburger with\neverything on it!";
 var b6title = "Can I have\n1 double burger\nwith 2 pickles\nand 1\nmedium fries.";
-var b7title = "Hello\nyeah\n2\ntriple cheeseburgers\nthanks.";
+var b7title = "Hello.\nYeah.\n2\ntriple cheeseburgers.\nThanks.";
 
-var c1title = "Hey\ncan you make me\n1 medium fry\nand\n1 cheeseburger?";
+var c1title = "Hey.\nCan you make me\n1 medium fry\nand\n1 cheeseburger?";
 	
 var a1order = [
     1,//lgFriesMade
