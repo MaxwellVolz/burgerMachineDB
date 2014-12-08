@@ -25,18 +25,19 @@ var a3title = "All right.\n1 burger\nwith tomato\nand 1 large fry.";
 var a4title = "\nBurger Machine?\n2 medium drinks\nplease.";
 var a5title = "\nHi!\n1 cheeseburger with\neverything on it!";
 var a6title = "Can I have\n1 double burger\nwith pickles\nand 2\nmedium fries.";
-var a7title = "Hello.\nYeah.\n1\ntriple cheeseburger.\nThanks.";
+var a7title = "Hello.\nYeah.\nTriple cheeseburger.\nThanks.";
 
 var b1title = "\nHey.\nCan you make me\n3 large fries?";
-var b2title = "Could you do\n2 small fry and\n1 small drink?";
+var b2title = "Could you do\n2 small fries and\n1 small drink?";
 var b3title = "All right.\n1 burger\nwith tomato\nand 1 medium fry.";
 var b4title = "\nBurger Machine?\n2 medium drinks\nplease.";
 var b5title = "\nHi!\n1 cheeseburger with\neverything on it!";
-var b6title = "Can I have\n1 double burger\nwith 2 pickles\nand 1\nmedium fries.";
-var b7title = "Hello.\nYeah.\n2\ntriple cheeseburgers.\nThanks.";
+var b6title = "Can I have\n1 double burger\nwith 2 pickles\nand 1\nmedium fry.";
+var b7title = "Hello.\nYeah. 2\ntriple cheeseburgers.\nThanks.";
 
 var c1title = "Hey.\nCan you make me\n1 medium fry\nand\n1 cheeseburger?";
 	
+
 var a1order = [
     1,//lgFriesMade
     0,//mdFriesMade
@@ -240,6 +241,21 @@ var c1order = [
     0,//smFriesMade
     1,//pattiesMade
     1,//cheeseMade
+    0,//picklesMade
+	0,//tomatoesMade
+	0,//onionsMade
+	0,//sauceMade
+	0,//lgDrinksMade
+	0,//mdDrinksMade
+	0//smDrinksMade
+	];
+	
+var f1order = [
+    30,//lgFriesMade
+    0,//mdFriesMade
+    0,//smFriesMade
+    0,//pattiesMade
+    0,//cheeseMade
     0,//picklesMade
 	0,//tomatoesMade
 	0,//onionsMade

@@ -136,7 +136,7 @@ var b1order = [
     0,//smFriesMade
     2,//pattiesMade
     0,//cheeseMade
-    2,//picklesMade
+    0,//picklesMade
 	0,//tomatoesMade
 	0,//onionsMade
 	2,//sauceMade

@@ -15,16 +15,16 @@ function Update () {
 //Onions Added to Order List
 
 var a1title = "Hello.\n1 double\ncheeseburger\nwith double onions.";
-var a2title = "Hey Hey.\nCan I have\n2 small fries\nand 2 large drinks?";
+var a2title = "Hey. Hey.\nCan I have\n2 small fries\nand 2 large drinks?";
 var a3title = "Yes. Hi.\n1 burger\nwith tomato,\nno onion,\nand 2 small drinks.";
 var a4title = "\n2 cheeseburgers\nwith everything.\nThanks.";
-var a5title = "Woo\nBurger Machine!!\n1 double burger\nwith double onions,\nand 2 large fries!\nThanks!";
+var a5title = "Woo!!\nBurger Machine!!\n1 double burger\nwith double onions,\nand 2 large fries!\nThanks!";
 var a6title = "1 double\ncheeseburger,\n1 large fry,\nand 2 pickles\non the side.";
 var a7title = "Can I have\n2 medium drinks,\n1 small fry,\nand 2 burgers?";
 	
 var b1title = "Oi!\n1 double\ncheeseburger\nwith onions,\n 1 small fry.";
 var b2title = "Hi.\nCan you make\n3 small fries\nand 1 large drink?";
-var b3title = "Yes. Hello.\n1 burger\nno tomato\nwith onion,\nand 3 small drinks.";
+var b3title = "Yes. Hello.\n1 burger\nno tomato,an \nonion, and 3\nsmall drinks.";
 var b4title = "\n3 cheeseburgers\nwith everything.\n\nThanks.";
 var b5title = "Woo!!\nBurger Machine!!!\n1 double burger\nand 3 large fries!\nThanks!";
 var b6title = "1 double\ncheeseburger,\n2 small fries,\nand 3 pickles\non the side.";

@@ -21,8 +21,8 @@ var a5title = "\nCan you make me\n1 grilled cheese\nwith everything?";
 var a6title = "\n\n\nI want 2 pickles!";
 var a7title = "Dude\nuhh...\ncheeseburger...\ndouble onions...\na...large drink.";
 	
-var b1title = "\nHello,\n4 cheeseburgers\nwith onion.";
-var b2title = "Hey.\n2 double\ncheeseburgers,\nnno pickles,\nand 2 small drinks.";
+var b1title = "\nHello,\n4 cheeseburgers\nwith onions.";
+var b2title = "Hey.\n2 double\ncheeseburgers,\nno pickles,\nand 2 small drinks.";
 var b3title = "Hi there!\n2 large fries,\n2 medium drinks,\n3 pickles,\nand 1 burger.\nThanks.";
 var b4title = "Can I have\n1 cheeseburger\nwith tomato,\nno pickles,\nno onions\nand 4 small fries?";
 var b5title = "\n\nLet me have like\n4 cheese slices.";
