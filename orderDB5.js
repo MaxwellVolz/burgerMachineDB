@@ -20,7 +20,7 @@ var a3title = "Hello again.\n1 grilled cheese\nwith 2 onions.\nNo sauce please."
 var a4title = "2 small fries,\n1 double burger\nwith pickles\nand 2 tomatoes.\nThanks.";
 var a5title = "Give me 1 burger\nwith 2 cheese,\ndouble onions,\nand double sauce.";
 var a6title = "Hi.\n2 large fries,\n2 small drinks,\nand 1 burger\nno onion.";
-var a7title = "I am hungry,\n2 double\ncheeseburgers\nwith everything.";
+var a7title = "/nI am hungry,\n2 double\ncheeseburgers\nwith everything.";
 
 var b1title = "I want\n2 burgers\nwith cheese\nno pickles\nand 4 small fries.";
 var b2title = "\n1 cheeseburgers\nwith sauce,\nand 3 large drinks.";
@@ -28,7 +28,7 @@ var b3title = "Hello,\n1 cheeseburger\nwith extra cheese,\nand 2 medium fries.";
 var b4title = "4 small fries,\n1 double burger,\nno pickle,\nand 3 tomato.\nThanks.";
 var b5title = "Give me 2 burgers\nwith 2 cheese\nand sauce.";
 var b6title = "Hi.\n1 large fry,\n3 small drinks,\nand 2 burgers\nwith onion.";
-var b7title = "I am hungry,\n2 cheeseburgers\nwith double everything.";
+var b7title = "\nI am hungry,\n2 cheeseburgers\nwith double everything.";
 
 var c1title = "I would like\n2 burgers\nwith everything,\nand 1 small fry.";
 	

@@ -13,9 +13,9 @@ function Update () {
 //create a line-break with \n no spaces needed
 //6 lines maximum - short orders can start with a \n - needs testing.
 
-var a1title = "Hi,\nI want a\ndouble cheeseburger\nwith pickles,\nand 1 small fry.";
+var a1title = "Hi,\nI want a\ncheeseburger\nwith pickles,\nand 1 small fry.";
 var a2title = "Hey there,\ncan I have 2 small\n drinks, 1 large\n fry, and a\ncheeseburger?";
-var a3title = "\n\n1 cheeseburger\nwith everything.";
+var a3title = "\n\n\n1 cheeseburger\nwith everything.";
 var a4title = "\nCool, just 2\nmedium fries and\n1 small drink.";
 var a5title = "Yo Yo.\nLet me have\n2 burgers\nwith pickles\nand tomatoes.";
 var a6title = "Hello,\n1 burger,\n1 large drink,\nand 2 small fries.\nThanks.";
@@ -29,14 +29,14 @@ var b5title = "Yo.\nLet me have\n3 burgers\nwith pickles.";
 var b6title = "Hello!\n1 burger\nwith triple cheese\nand 2 small drinks.\nThanks.";
 var b7title = "Can I get\n2 small, medium\nand large fries?\nThank you!";
 	
-var c1title = "Hey.\nI need 2\ncheeseburgers\nwith tomatoes.";	
+var c1title = "\nHey.\nI need 2\ncheeseburgers\nwith tomatoes.";	
 	
 var a1order = [
     0,//lgFriesMade
     0,//mdFriesMade
     1,//smFriesMade
-    2,//pattiesMade
-    2,//cheeseMade
+    1,//pattiesMade
+    1,//cheeseMade
     1,//picklesMade
 	0,//tomatoesMade
 	0,//onionsMade
